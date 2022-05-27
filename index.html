@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+</html>
+<html>
+	<head>
+		<title>Registration Form</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		           <!--Input get from user-->
+
+
+		<form name="form" id="ip">
+			<table border="1" align="center" width="60%" cellpadding="5px"  bordercolor="white">
+				<tr>
+					<th colspan="2"><h2>Registration Form</h2></th>
+				</tr>
+				<tr>
+					<td style="text-align: center;"><label>Student Name</label></td>
+					<td><input type="text" name="sname" id="1"></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"><label>Father's Name</label></td>
+					<td><input type="text" name="fname" id="2"></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"><label>Mother's Name</label></td>
+					<td><input type="text" name="mname" id="3" ></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"><label>Date of Birth</label></td>
+					<td><input type="date" name="dob" id="4"></td>
+				</tr>
+				<tr id="5">
+					<td style="text-align: center;"><label>Gender</label></td>
+					<td><label style="color: rgb(74, 8, 255);">Male </label><input type="radio" name="gender" value="male">
+						<label style="color: rgb(234, 255, 0);">Female</label><input name="gender" type="radio" value="female">
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"><label>Email ID</label></td>
+					<td><input type="email" name="email" id="6"></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"><label>Mobile No.</label></td>
+					<td><input type="number" name="phno" id="7" ></td>
+				</tr>
+				<tr>
+					<td colspan="2"  style="text-align: center;">
+						<input type="submit" value="Submit" onclick="check()">
+                          
+					</td>
+				</tr>
+			</table>
+		</form>
+ 
+	
+		<!--OutPut of the form-->
+
+
+
+		<div class="output" id="op">
+		<table border="1" align="center" width="60%" cellpadding="5px"  bordercolor="white">
+			<tr>
+				<th colspan="2"><h2>Your data</h2></th>
+			</tr>
+			<tr>
+				<td><label>Student Name</label></td>
+				<td id="10" class="a"></td>
+			</tr>
+			<tr>
+				<td style="text-align: center;"><label>Father's Name</label></td>
+				<td id="20" class="a"></td>
+			</tr>
+			<tr>
+				<td style="text-align: center;"><label>Mother's Name</label></td>
+				<td id="30" class="a"></td>
+			</tr>
+			<tr>
+				<td style="text-align: center;"><label>Date of Birth</label></td>
+				<td id="40" class="a"></td>
+			</tr>
+			<tr id="5">
+				<td style="text-align: center;"><label>Gender</label></td>
+				<td id="50" class="a"></td>
+			</tr>
+			<tr>
+				<td style="text-align: center;"><label>Email ID</label></td>
+				<td id="60" class="e"></td>
+			</tr>
+			<tr>
+				<td style="text-align: center;"><label>Mobile No.</label></td>
+				<td id="70" class="a"></td>
+			</tr>
+		</table>
+	</div>
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.086),rgba(0, 0, 0, 0.086)),url("https://raw.githubusercontent.com/Raguggg/pywhatsbomb_img/main/bg-1.jpg");
+}
+form{
+    padding-top: 80px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.output table tr td{
+    text-align: center;
+}
+
+h2{
+    color: rgb(247, 0, 255);
+    text-transform: uppercase;
+}
+input{
+    border-color: rgb(0, 0, 0);
+}
+button{
+    border-radius: 10%;
+    background-color: blue;
+    background-color: aliceblue;
+}
+#op{
+    padding-top: 80px;
+   display: none;
+}
+.output .a{
+    color: rgb(9, 255, 0);
+    font-style: bold;
+    font-size: 25px;
+    text-transform: capitalize;
+
+}
+.output .e{
+    color: rgb(9, 255, 0);
+    font-style: bold;
+    font-size: 25px;
+}
