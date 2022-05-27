@@ -1,4 +1,4 @@
-var arr=[];
+var arr="1";
 
 
 
@@ -11,13 +11,9 @@ function check(){
     var phno = document.form.phno.value;
     var dob = document.form.dob.value;
     var gender = document.getElementsByName("gender");
-    for(var i=0;i!=arr.length;i++)
-    {
-        document.getElementById(arr[i]).style.borderColor="black";
-        if(arr[i]=="5")
-            document.getElementById(arr[i]).style.borderColor="white"
-    }
-    arr.length=0;
+    document.getElementById(arr).style.borderColor="black";
+        if(arr=="5")
+            document.getElementById(arr).style.borderColor="white"
     for(var i=0;i!=gender.length;i++)
     {
         if(gender[i].checked)
@@ -30,43 +26,43 @@ function check(){
    var regx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
    // console.log(gender_op)
     if(sname==null||sname==""){
-        arr.push("1")
+        arr="1"
         document.getElementById("1").style.borderColor="red";
         alert("Enter the student Name......");
     }
     else if(fname==null||fname=="")
     {
-        arr.push("2")
+        arr="2"
         document.getElementById("2").style.borderColor="red";
         alert("Enter the Father's Name ......");
     }
     else if(mname==null||mname=="")
     {
-        arr.push("3")
+        arr="3"
         document.getElementById("3").style.borderColor="red";
         alert("Enter the Mother's Name ......");
     }
     else if(dob==null||dob=="")
     {
-        arr.push("4")
+        arr="4"
         document.getElementById("4").style.borderColor="red";
         alert("Enter the DOB ......");
     }
     else if(gender_op==null||gender_op=="")
     {
-        arr.push("5")
+        arr="5"
         document.getElementById("5").style.borderColor="red";
         alert("Select the gender")
     }
     else if(!regx.test(email))
     {
-        arr.push("6")
+        arr="6"
         document.getElementById("6").style.borderColor="red";
          alert("Enter the proper email..")
     }
     else if(phno==null||phno=="")
     {
-        arr.push("7")
+        arr="7"
         document.getElementById("7").style.borderColor="red";
         alert("Enter the Phone Number ......");
     }
